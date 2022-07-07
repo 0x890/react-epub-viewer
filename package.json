@@ -14,10 +14,6 @@
     "React"
   ],
   "main": "lib/modules/index.js",
-  "files": [
-    "lib",
-    "README.md"
-  ],
   "homepage": "https://altmshfkgudtjr.github.io/react-epub-viewer",
   "repository": {
     "type": "git",
