@@ -260,6 +260,7 @@ const EpubViewer = ({
         const rendition_ = book.renderTo(node, {
           width: "100%",
           height: "100%",
+	  allowScriptedContent: true,
           ...epubOptions
         });
         setRendition(rendition_);
