@@ -13,7 +13,7 @@
     "viewer",
     "React"
   ],
-  "main": "lib/modules/index.js",
+  "main": "lib/modules/index.ts",
   "homepage": "https://altmshfkgudtjr.github.io/react-epub-viewer",
   "repository": {
     "type": "git",
