@@ -13,7 +13,11 @@
     "viewer",
     "React"
   ],
-  "main": "src/lib/modules/index.ts",
+  "main": "lib/modules/index.js",
+  "files": [
+    "lib",
+    "README.md"
+  ],
   "homepage": "https://altmshfkgudtjr.github.io/react-epub-viewer",
   "repository": {
     "type": "git",
@@ -24,7 +28,7 @@
     "email": "altmshfkgudtjr@naver.com"
   },
   "scripts": {
-    "prepublish":"pkgfiles"
+      "prepare": "npm run build"
   },
   "dependencies": {
     "epubjs": "^0.3.88",
@@ -55,6 +59,24 @@
   "peerDependencies": {
     "react": ">=17.0.1",
     "react-dom": ">=17.0.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "types": "lib/types/index.d.ts"
 }
