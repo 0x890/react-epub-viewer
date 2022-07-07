@@ -13,7 +13,7 @@
     "viewer",
     "React"
   ],
-  "main": "lib/modules/index.ts",
+  "main": "src/lib/modules/index.ts",
   "homepage": "https://altmshfkgudtjr.github.io/react-epub-viewer",
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
     "email": "altmshfkgudtjr@naver.com"
   },
   "scripts": {
-    "prepublish":"plgfiles"
+    "prepublish":"pkgfiles"
   },
   "dependencies": {
     "epubjs": "^0.3.88",
