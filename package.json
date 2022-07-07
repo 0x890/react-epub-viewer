@@ -24,14 +24,7 @@
     "email": "altmshfkgudtjr@naver.com"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "prebuild": "react-scripts test --watchAll=false --passWithNoTests",
-    "build": " react-scripts build",
-    "test": "react-scripts test",
-    "clean": "rimraf lib",
-    "precompile": "react-scripts test --watchAll=false --passWithNoTests && yarn clean",
-    "compile": "babel src --out-dir lib --extensions .ts,.tsx",
-    "postcompile": "cp -r ./src/types ./lib/types"
+    "prepublish":"plgfiles"
   },
   "dependencies": {
     "epubjs": "^0.3.88",
@@ -62,24 +55,6 @@
   "peerDependencies": {
     "react": ">=17.0.1",
     "react-dom": ">=17.0.1"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   },
   "types": "lib/types/index.d.ts"
 }
